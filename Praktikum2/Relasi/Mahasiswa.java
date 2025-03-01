@@ -61,8 +61,8 @@ public class Mahasiswa {
     }
  
     // Setter untuk mengatur nama mahasiswa
-    public void setNama(String Nama){
-        this.nama = Nama;
+    public void setNama(String nama){
+        this.nama = nama;
     }
  
     // Setter untuk mengatur program studi mahasiswa
@@ -116,7 +116,7 @@ public class Mahasiswa {
         System.out.println("Daftar Mata Kuliah");
         int i;
         for (i = 0 ; i < listMatKul.size() ; i++){
-            System.out.println((i+1) + "." + listMatKul.get(i).getNamaMK());
+            System.out.println((i+1) + ". " + listMatKul.get(i).getNamaMK());
         }
         System.out.println("Dosen Wali\t:" + dosenwali.getNama());
         System.out.println("Kendaraan\t:" + kendaraan.getJenis());

@@ -11,7 +11,7 @@ public class MMahasiswa {
         MataKuliah PBO = new MataKuliah("12PBO", "Pemrograman Berorientasi Objek", 3);
         MataKuliah MBD = new MataKuliah("13MBD", "Manajemen Basis Data", 3);
         MataKuliah KWU = new MataKuliah("14KWU", "Kewirausahaan", 2);
-        MataKuliah SD = new MataKuliah("15SD", "Struktur Data", 4);
+        MataKuliah SDT = new MataKuliah("15SDT", "Struktur Data", 4);
  
         /************* Data Dosen *************/
         Dosen D1 = new Dosen("123", "Andi", "Matematika");
@@ -26,7 +26,7 @@ public class MMahasiswa {
         M1.setDosenWali(D1);
         M1.setKendaraan(K1);
         M1.addMatkul(MBD);
-        M1.addMatkul(SD);
+        M1.addMatkul(SDT);
         M1.addMatkul(KWU);
         // Menampilkan data Mahasiswa 1
         System.out.println("---------------------");
@@ -35,13 +35,13 @@ public class MMahasiswa {
         M1.printDetailMhs();
         System.out.println("Jumlah Mata Kuliah = " + M1.getJumlahMatkul());
         System.out.println("Total SKS yang diambil = " + M1.getJumlahSKS());
-        System.out.println("Total Mata Kuliah yang diambil: " + M1.getJumlahMatkul());
+        System.out.println("Total Mata Kuliah yang diambil = " + M1.getJumlahMatkul());
  
         /************* Mahasiswa 2 *************/
         Mahasiswa M2 = new Mahasiswa("678", "Dima Susanti", "Informatika");
         M2.setDosenWali(D2);
         M2.setKendaraan(K2);
-        M2.addMatkul(SD);
+        M2.addMatkul(SDT);
         M2.addMatkul(KWU);
         M2.addMatkul(MBD);
         M2.addMatkul(PBO);
@@ -52,6 +52,6 @@ public class MMahasiswa {
         M2.printDetailMhs();
         System.out.println("Jumlah Mata Kuliah = " + M2.getJumlahMatkul());
         System.out.println("Total SKS yang diambil = " + M2.getJumlahSKS());
-        System.out.println("Total Mata Kuliah yang diambil: " + M2.getJumlahMatkul());
+        System.out.println("Total Mata Kuliah yang diambil = " + M2.getJumlahMatkul());
     } 
 }

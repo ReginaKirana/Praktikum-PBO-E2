@@ -8,7 +8,7 @@ package Relasi;
 /************* ATRIBUT *************/
 public class MataKuliah {
     private String IDMatKul;
-    private String nama_MK;
+    private String nama;
     private int SKS;
  
     /************* METHOD *************/
@@ -18,9 +18,9 @@ public class MataKuliah {
     }
  
     // Konstruktor untuk membuat objek Dosen (dengan parameter)
-    public MataKuliah(String IDMatKul, String nama_MK, int SKS){
+    public MataKuliah(String IDMatKul, String nama, int SKS){
         this.IDMatKul = IDMatKul;
-        this.nama_MK = nama_MK;
+        this.nama = nama;
         this.SKS = SKS;
     }
  
@@ -31,7 +31,7 @@ public class MataKuliah {
  
     //  Getter untuk mendapatkan nama mata kuliah
     public String getNamaMK(){
-        return this.nama_MK;
+        return this.nama;
     }
  
     //  Getter untuk mendapatkan sks mata kuliah
@@ -46,7 +46,7 @@ public class MataKuliah {
  
     // Setter untuk mengatur nama mata kuliah
     public void setNamaMK(String namaMK){
-        this.nama_MK = namaMK;
+        this.nama = namaMK;
     }
  
     // Setter untuk mengatur sks mata kuliah

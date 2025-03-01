@@ -8,7 +8,7 @@ public class MGaris {
     public static void main(String[] args) {
         /**** Membuat Garis g1 ****/ 
         System.out.println("--------------------------------");
-        System.out.println("-    Garis Fengan Parameter    -");
+        System.out.println("-    Garis Dengan Parameter    -");
         System.out.println("--------------------------------");
         System.out.println("== Garis g1 ==");
         Titik t1 = new Titik(-3,1);
