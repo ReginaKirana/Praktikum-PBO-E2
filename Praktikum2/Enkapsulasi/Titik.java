@@ -4,7 +4,7 @@
  * Tanggal      : 27 Februari 2025
  */
 
- public class Titik {
+public class Titik {
     /************* ATRIBUT *************/
     private double absis;
     private double ordinat;

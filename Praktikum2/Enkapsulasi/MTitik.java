@@ -4,7 +4,7 @@
  * Tanggal      : 27 Februari 2025
  */
 
- public class MTitik {
+public class MTitik {
     public static void main(String[] args) {
         /**** Membuat Titik T1 ****/ 
         System.out.println("---------------------------------");
@@ -23,16 +23,16 @@
         System.out.println("== Titik T1 ==");
         System.out.println("Absis T1 = " + T1.getAbsis());
         System.out.println("Ordinat T1 = " + T1.getOrdinat());
-        // T1.absis();
-        // T1.ordinat(); ga bisa leee udah private
+        
+        /* Akibat Enkapsulasi:
+           T1.ordinat(); tidak bisa akses karena sudah di-private, harus pakai selektor getter */
 
-        //     /**** getCounterTitik ****/
+        /**** getCounterTitik ****/
         System.out.println("---------------------------------");
         System.out.println("-    Menghitung Jumlah Titik    -");
         System.out.println("---------------------------------");
         System.out.println("Jumlah Objek Titik = " + Titik.getCounterTitik());
         
-
         /**** Membuat Titik Dengan Inputan x Dan y ****/
         System.out.println("--------------------------------------");
         System.out.println("-    Titik Dengan Inputan x Dan y    -");

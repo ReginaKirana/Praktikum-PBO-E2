@@ -4,7 +4,7 @@
  * Tanggal      : 27 Februari 2025
  */
 
- public class Garis {
+public class Garis {
     /************* ATRIBUT *************/
     private Titik awal;
     private Titik akhir;

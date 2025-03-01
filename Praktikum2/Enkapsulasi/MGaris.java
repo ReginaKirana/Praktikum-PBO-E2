@@ -4,7 +4,7 @@
  * Tanggal      : 27 Februari 2025
  */
 
- public class MGaris {
+public class MGaris {
     public static void main(String[] args) {
         /**** Membuat Garis g1 ****/ 
         System.out.println("--------------------------------");
@@ -24,6 +24,9 @@
         Garis g3 = new Garis(t3, t4);
         System.out.println("Titik Awal Garis g3 = (" + g3.getAwal().getAbsis() + ", " + g3.getAwal().getOrdinat() + ")");
         System.out.println("Titik Akhir Garis g3 = (" + g3.getAkhir().getAbsis() + ", " + g3.getAkhir().getOrdinat() + ")");
+        
+        /* Akibat Enkapsulasi:
+           g3.awal(); tidak bisa akses karena sudah di-private, harus pakai selektor getter */
 
         System.out.println("-------------------------------");
         System.out.println("-    Garis Tanpa Parameter    -");
