@@ -1,4 +1,4 @@
-/* Nama File    : MLatihan.java  
+/* Nama File    : mLatihan.java  
  * Deskripsi    : Program untuk menampilkan informasi Pegawai di universitas, 
  *                mencakup dosen tetap, dosen tamu, dan tenaga kependidikan (tendik)
  * Pembuat      : Regina Sasikirana Farikh (24060123140155)  

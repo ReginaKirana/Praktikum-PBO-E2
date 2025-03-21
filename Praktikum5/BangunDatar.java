@@ -1,19 +1,24 @@
 /*  Nama File    : BangunDatar.java  
- *  Deskripsi    : Superclass (Parent) untuk merepresentasikan bangun datar
+ *  Deskripsi    : Kelas abstrak sebagai dasar untuk berbagai bangun datar,  
+ *                 dengan atribut umum serta metode abstrak untuk perhitungan luas dan keliling
  *  Pembuat      : Regina Sasikirana Farikh (24060123140155)  
  *  Tanggal      : 20 Maret 2025  
  */  
 
 public abstract class BangunDatar {
+    // ==== Atribut ====
     protected int jmlSisi;
     protected String warna;
     protected String border;
     protected static int counterBangunDatar;
 
+    // ==== Konstruktor ====
+    // Konstruktor default (tanpa parameter)
     protected BangunDatar(){
         counterBangunDatar++;
     }
 
+    // Konstruktor dengan parameter
     protected BangunDatar(int jmlSisi, String warna, String border){
         this.jmlSisi = jmlSisi;
         this.warna = warna;
@@ -21,42 +26,52 @@ public abstract class BangunDatar {
         counterBangunDatar++;
     }
 
-    // Method abstract
+    // ==== Metode Abstrak ====
+    // Metode abstrak untuk menghitung luas (harus diimplementasikan oleh subclass)
     public abstract double getLuas();
+    // Metode abstrak untuk menghitung keliling (harus diimplementasikan oleh subclass)
     public abstract double getKeliling();
 
+    // ==== Selektor & Mutator ====
+    // Getter untuk jumlah sisi
     public int getJmlSisi() {
         return jmlSisi;
     }
 
+    // Setter untuk jumlah sisi
     public void setJmlSisi(int jmlSisi){
         this.jmlSisi = jmlSisi;
     }
 
+    // Getter untuk warna
     public String getWarna(){
         return warna;
     }
 
+    // Setter untuk warna
     public void setWarna(String warna){
         this.warna = warna;
     }
 
+    // Getter untuk border
     public String getBorder(){
         return border;
     }
 
+    // Setter untuk border
     public void setBorder(String border){
         this.border = border;
     }
 
-    // Mathod abs
-
+    // ==== Method ====
+    // Mencetak informasi umum mengenai bangun datar
     public void printInfo(){
         System.out.println("Jumlah Sisi: " + jmlSisi);
         System.out.println("Warna: " + warna);
         System.out.println("Border: " + border);
     }
-
+    
+    // Mencetak jumlah objek BangunDatar yang telah dibuat
     public static void printCounterBangunDatar(){
         System.out.println("Jumlah objek Bangun Datar: " + counterBangunDatar);
     }

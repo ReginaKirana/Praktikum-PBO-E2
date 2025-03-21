@@ -1,5 +1,6 @@
 /*  Nama File    : MBangunDatar.java  
- *  Deskripsi    : Kelas utama untuk menjalankan program dan menampilkan informasi bangun datar
+ *  Deskripsi    : Program utama untuk menguji kelas BangunDatar, Persegi, dan Lingkaran,  
+ *                 serta fitur zoom dari interface IResize
  *  Pembuat      : Regina Sasikirana Farikh (24060123140155)  
  *  Tanggal      : 20 Maret 2025  
  */  
@@ -54,45 +55,5 @@ public class MBangunDatar {
         System.out.println("Sisi persegi P2: " + P2.getSisi());
         System.out.println("Jari Lingkaran L2: " + L2.getJari());
         
-        // Membuat Object BangunDatar
-        // System.out.println("--------------------------");
-        // System.out.println("-    Info BangunDatar    -");
-        // System.out.println("--------------------------");
-        // BangunDatar bd = new BangunDatar();
-        // bd.setJmlSisi(3);
-        // bd.setWarna("Merah");
-        // bd.setBorder("Hitam");
-        // // bd.printInfo();
-        // BangunDatar B1 = new BangunDatar();
-        // BangunDatar P1 = new Persegi(10);
-        // Persegi P2 = new Persegi(5);
-        // BangunDatar L1 = new Lingkaran(7);
-        // Lingkaran L1 = new Lingkaran (14);
-
-
-
-        // // Membuat objek Persegi
-        
-        // System.out.println("--------------------");
-        // System.out.println("-   Info Persegi   -");
-        // System.out.println("--------------------");
-        // Persegi p = new Persegi(5, "Hijau", "Kuning");
-        // System.out.println("Jumlah Sisi Persegi: " + p.getJmlSisi());
-        // System.out.println("Warna Persegi: " + p.getWarna());
-        // System.out.println("Border Persegi: " + p.getBorder());
-        // System.out.println("Ukuran sisi Persegi: " + p.getSisi());
-
-        // System.out.println("--------------------------------");
-        // System.out.println("-   Info Persegi (printinfo)   -");
-        // System.out.println("--------------------------------");
-        // p.printInfo();
-
-        // // Membuat Objek Lingkaran + Penerapan Super
-        // System.out.println("----------------------");
-        // System.out.println("-   Info Lingkaran   -");
-        // System.out.println("----------------------");
-        // Lingkaran L = new Lingkaran(14, "Pink", "Biru");
-        // L.printInfo();
-        // System.out.println("Ukuran Jari-Jari Lingkaran: " + L.getJari());
     }    
 }

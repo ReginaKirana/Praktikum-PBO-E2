@@ -1,6 +1,6 @@
 /*  Nama File    : IResize.java  
  *  Deskripsi    : Interface untuk mengubah ukuran objek dengan metode 
- *                 zoom in, zoom out, dan skala sesuai persentase.
+ *                 zoom in, zoom out, dan skala sesuai persentase
  *  Pembuat      : Regina Sasikirana Farikh (24060123140155)  
  *  Tanggal      : 20 Maret 2025  
  */  
