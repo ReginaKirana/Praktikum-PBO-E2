@@ -30,8 +30,10 @@ public class MGaris {
         Titik t3 = new Titik (1,2);
         Titik t4 = new Titik (-5,-6);
         Garis g3 = new Garis(t3, t4);
-        System.out.println("Titik Awal Garis g3 = (" + g3.getAwal().getAbsis() + ", " + g3.getAwal().getOrdinat() + ")");
-        System.out.println("Titik Akhir Garis g3 = (" + g3.getAkhir().getAbsis() + ", " + g3.getAkhir().getOrdinat() + ")");
+        System.out.println("Titik Awal Garis g3 = (" + g3.getAwal().getAbsis() + 
+            ", " + g3.getAwal().getOrdinat() + ")");
+        System.out.println("Titik Akhir Garis g3 = (" + g3.getAkhir().getAbsis() + 
+            ", " + g3.getAkhir().getOrdinat() + ")");
 
         /**** Implementasi Selektor Setter ****/ 
         System.out.println("------------------------------");
@@ -74,7 +76,8 @@ public class MGaris {
         System.out.println("== Garis g1 ==");
         g1.printGaris();
         Titik tengahG1 = g1.getTitikTengah();
-        System.out.println("Titik tengah g1 = (" + tengahG1.getAbsis() + ", " + tengahG1.getOrdinat() + ")");
+        System.out.println("Titik tengah g1 = (" + tengahG1.getAbsis() + 
+        ", " + tengahG1.getOrdinat() + ")");
 
         /**** Cek Apakah 2 Garis Sejajar ****/ 
         System.out.println("---------------------");
