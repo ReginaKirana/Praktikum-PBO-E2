@@ -23,4 +23,6 @@ public abstract class Anabul {
     public abstract void Gerak();
     // Method abstract untuk menampilkan suara dasar hewan
     public abstract void Bersuara();
+    // Method abstract untuk mengetahui jenis Anabul
+    public abstract String getJenis();
 }

@@ -22,4 +22,11 @@ public class Kucing extends Anabul {
     public void Bersuara() {
         System.out.println(Nama + " berbunyi: meong");
     }
+
+    // Override method getJenis untuk mengetahui jenis spesifik Datum (jika Datum berupa anabul)
+    @Override
+    public String getJenis() {
+        return "Kucing";
+    }
+
 }

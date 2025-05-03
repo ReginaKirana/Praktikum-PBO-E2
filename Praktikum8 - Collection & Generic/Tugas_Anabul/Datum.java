@@ -1,7 +1,8 @@
-// Nama File    : Datum.java 
-// Deskripsi    : Kelas generic yang dapat menyimpan data bertipe fleksibel
-// Pembuat      : Regina Sasikirana Farikh (24060123140155)  
-// Tanggal      : Kamis, 1 Mei 2025  
+/* Nama File    : Datum.java 
+ * Deskripsi    : Kelas generic yang dapat menyimpan data bertipe fleksibel
+ * Pembuat      : Regina Sasikirana Farikh (24060123140155)  
+ * Tanggal      : Kamis, 1 Mei 2025  
+*/
 
 package Tugas_Anabul;
 // ===============================================
@@ -26,5 +27,20 @@ public class Datum<T> {
     // Method untuk mengubah nilai isi
     public void setIsi(T isi) {
         this.isi = isi;
+    }
+
+    // Method untuk menampilkan informasi Datum
+    public void printInfo() {
+        if (isi instanceof Anabul) {
+            Anabul anabul = (Anabul) isi;
+            System.out.println("Nama Datum: " + anabul.toString());
+            System.out.println("Jenis Datum: " + anabul.getJenis());
+            anabul.Gerak();
+            anabul.Bersuara();
+            System.out.println("------------------------------------");
+        } else {
+            System.out.println("Isi: " + isi);
+            System.out.println("------------------------------------");
+        }
     }
 }
