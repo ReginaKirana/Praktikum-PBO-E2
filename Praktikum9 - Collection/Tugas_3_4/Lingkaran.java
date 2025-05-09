@@ -1,5 +1,4 @@
 package Tugas_3_4;
-
 /*  Nama File    : Lingkaran.java
  *  Deskripsi    : Kelas untuk Lingkaran sebagai subclass dari Bangun Datar
  *  Pembuat      : Regina Sasikirana Farikh (24060123140155)  

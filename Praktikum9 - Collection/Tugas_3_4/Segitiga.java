@@ -1,5 +1,4 @@
 package Tugas_3_4;
-
 /*  Nama File    : Segitiga.java
  *  Deskripsi    : Kelas untuk Segitiga sebagai subclass dari Bangun Datar
  *  Pembuat      : Regina Sasikirana Farikh (24060123140155)  
@@ -15,12 +14,12 @@ package Tugas_3_4;
     private double sisi3;
 
     // Konstruktor
-    public Segitiga(double alas, double tinggi, double sisi1, double sisi2, double sisi3) {
-        this.alas = alas;
-        this.tinggi = tinggi;
-        this.sisi1 = sisi1;
-        this.sisi2 = sisi2;
-        this.sisi3 = sisi3;
+    public Segitiga(double alas, double tinggi, double sisi2, double sisi3) {
+        this.alas = alas; // alas segtiga
+        this.tinggi = tinggi; // tinggi segitiga
+        this.sisi1 = alas; // sisi pertama (disamakan dengan alas)
+        this.sisi2 = sisi2; // sisi kedua
+        this.sisi3 = sisi3; // sisi ketiga
     }
 
     // Method untuk menghitung keliling persegi panjang

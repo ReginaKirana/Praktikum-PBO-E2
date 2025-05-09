@@ -1,8 +1,8 @@
 package Tugas_3_4;
 /*  Nama File    : BangunDatarGenericTest.java
- *  Deskripsi    : Kelas konstruksi generic untuk BangunDatar
+ *  Deskripsi    : Kelas main generic untuk BangunDatar
  *  Pembuat      : Regina Sasikirana Farikh (24060123140155)  
- *  Tanggal      : Kamis, 1 Mei 2025  
+ *  Tanggal      : Kamis, 8 Mei 2025  
  */
 
 public class BangunDatarGenericTest {
@@ -27,7 +27,6 @@ public class BangunDatarGenericTest {
         System.out.println("Tipe generic: " + bdgPersegi.get().getClass().getSimpleName());
         System.out.println();
 
-
          // Buat objek Persegipanjang dan uji dengan generic
         System.out.println("----- PERSEGI PANJANG -----");
         PersegiPanjang pp = new PersegiPanjang(5, 7);
@@ -40,7 +39,7 @@ public class BangunDatarGenericTest {
         
         // Buat objek Segitiga dan uji dengan generic
         System.out.println("----- SEGITIGA -----");
-        Segitiga s = new Segitiga(6, 4, 6, 5, 7);
+        Segitiga s = new Segitiga(6, 4, 5, 7);
         BangunDatarGeneric<Segitiga> bdgSegitiga = new BangunDatarGeneric<Segitiga>();
         bdgSegitiga.set(s);
         System.out.println("Keliling: " + bdgSegitiga.hitungKeliling());
@@ -48,3 +47,9 @@ public class BangunDatarGenericTest {
         System.out.println("Tipe generic: " + bdgSegitiga.get().getClass().getSimpleName());
     }        
 }
+
+// Note
+/* new BangunDatarGeneric<Segitiga>() hanya membuat wadah kosong.
+ * set(s) dibutuhkan untuk mengisi wadah itu dengan objek Segitiga, 
+ * agar metode seperti hitungKeliling() tahu objek mana yang harus diproses.
+ */

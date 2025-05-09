@@ -1,5 +1,4 @@
 package Tugas_3_4;
-
 /*  Nama File    : PersegiPanjang.java
  *  Deskripsi    : Kelas untuk Persegi Panjang sebagai subclass dari Bangun Datar
  *  Pembuat      : Regina Sasikirana Farikh (24060123140155)  
