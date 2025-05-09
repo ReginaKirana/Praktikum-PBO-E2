@@ -1,7 +1,7 @@
 /*  Nama File    : Anjing.java 
  *  Deskripsi    : Kelas representasi Anjing sebagai subclass Anabul
  *  Pembuat      : Regina Sasikirana Farikh (24060123140155)  
- *  Tanggal      : Kamis, 24 April 2025  
+ *  Tanggal      : Kamis, 8 Mei 2025  
  */  
 
 package Tugas_3_6;
